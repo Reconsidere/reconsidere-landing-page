@@ -355,64 +355,19 @@
                                 <a class="btn btn--white btn--bordered btn--rounded" data-scroll="scrollTo" href="#knowmore">Fale conosco para saber mais</a>
                             </div>
                         </div>
-                        <!-- .col-md-8 end -->
                     </div>
-                    <!-- .row end -->
                 </div>
-                <!-- .container end -->
             </section>
-
-            <!-- Testimonials #5
-============================================= -->
             <section id="testimonials" class="section testimonials testimonials-5 bg-gray">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
                             <div class="heading text-center mb-70">
                                 <h2 class="heading--title">Quem somos</h2>
-                                <p class="heading--desc"></p>
+                                <p class="heading--desc">A <span id="reconsidereColor">Reconsidere</span> busca desenvolver soluções inovadoras para processos de gestão ambiental em indústrias, alinhando sempre a gestão integrada entre indústria, fornecedores e coletores com foco em economia circular.
+                                </p>
                             </div>
                         </div>
-                        <!-- .col-md-6 end -->
-                    </div>
-                    <!-- .row end -->
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-6">
-                            <div class="testimonial-panel">
-                                <div class="testimonial--meta-img">
-                                    <img src="assets/images/users/raul.jpg" alt="author image">
-                                </div>
-                                <div class="testimonial--body">
-                                    <div class="testimonial--meta">
-                                        <h4>Raul Guilherme Capistrano Simon</h4>
-                                    </div>
-                                    <div class="testimonial--content">
-                                        <p>
-                                            Fundador e CEO na Projeto Reconsidere
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-6">
-                            <div class="testimonial-panel">
-                                <div class="testimonial--meta-img">
-                                    <img src="assets/images/users/vinicius.jpg" alt="author image">
-                                </div>
-                                <div class="testimonial--body">
-                                    <div class="testimonial--meta">
-                                        <h4>Vinicius Medeiros</h4>
-                                    </div>
-                                    <div class="testimonial--content">
-                                        <p>
-                                            CTO na Projeto Reconsidere
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>
@@ -420,42 +375,40 @@
             <section id="knowmore" class="section  feature-1 bg-white">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="">
-                                <form class="form-horizontal" action="javascript:emailSend()" method="post">
-                                    <fieldset>
-                                        <div class="heading mb-70 ">
-                                            <h2 class="heading--title">Fale conosco</h2>
+                        <div class="col-md-12">
+                            <form class="form-horizontal" action="javascript:emailSend()" method="post">
+                                <fieldset>
+                                    <div class="heading mb-70 ">
+                                        <h2 class="heading--title">Fale conosco</h2>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-9">
+                                            <input required id="name" name="name" type="text" placeholder="Nome" class="form-control">
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-md-9">
-                                                <input required id="name" name="name" type="text" placeholder="Nome" class="form-control">
-                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-9">
+                                            <input required id="email" name="email" type="email" placeholder="Email" class="form-control">
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-md-9">
-                                                <input required id="email" name="email" type="email" placeholder="Email" class="form-control">
-                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-9">
+                                            <textarea required class="form-control" id="message" name="message" placeholder="escreva dua mensagem" rows="5"></textarea>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-md-9">
-                                                <textarea required class="form-control" id="message" name="message" placeholder="escreva dua mensagem" rows="5"></textarea>
-                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-3">
+                                            <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="col-md-12 text-right">
-                                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                        <div class="container" style="display:none;" id="myAlert">
+                                            <div class="alert alert-success alert-dismissable" id="myAlert2">
+                                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                                Obrigado! recebemos o seu e-mail
                                             </div>
-                                            <div class="container" style="display:none;" id="myAlert">
-                                                <div class="alert alert-success alert-dismissable" id="myAlert2">
-                                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                                    Obrigado! recebemos o seu e-mail
-                                                </div>
 
-                                            </div>
-                                    </fieldset>
-                                </form>
-                            </div>
+                                        </div>
+                                </fieldset>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -510,23 +463,6 @@
                                     <span>&copy; Reconsidere, All Rights Reserved.</span>
                                 </div>
                             </div>
-                            <!-- .col-md-6 end -->
-                            <!-- <div class="col-xs-12 col-sm-6 col-md-6">
-                            <div class="widget--social text-right text-center-xs">
-                                <a class="facebook" href="#">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                                <a class="twitter" href="#">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                                <a class="dribbble" href="#">
-                                    <i class="fa fa-dribbble"></i>
-                                </a>
-                                <a class="instagram" href="#">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </div>
-                        </div> -->
                         </div>
                     </div>
                 </div>
